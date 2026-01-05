@@ -71,11 +71,11 @@ int main (){
     rarea = area > area2;
     rpib = pib > pib2;
     pturist = ponto > ponto2;
-    rdensidade = densid_pop > densid_pop2;
+    rdensidade = densid_pop < densid_pop2 / 1;
     rpibpcap = pib_per_capita > pib_per_capita2;
     rsuper = super_poder_A > super_poder_B;
 
-    printf("População: %.1f\nÁrea: %f\nPIB: %f\nPontos Turísticos: %f\nDensidade Populacional: %f\nPib Per Capita: %f\nSUPER PODER: %f\n", rpopulacao, rarea, rpib, pturist, rdensidade, rpibpcap, rsuper);
+    printf("População: %.1f\nÁrea: %.1f\nPIB: %.1f\nPontos Turísticos: %.1f\nDensidade Populacional: %.1f\nPib Per Capita: %.1f\nSUPER PODER: %.1f\n", rpopulacao, rarea, rpib, pturist, rdensidade, rpibpcap, rsuper);
 
     return 0;
 }
